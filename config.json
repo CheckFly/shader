@@ -1,0 +1,41 @@
+{
+  "skipSetupDialog": true, // If true, setup dialog will be suppressed - all values you provide below will be used without validation (at your own risk!)
+  "window":{ // default window size / state; if there's a setup dialog, it will override it
+    "width":1280,
+    "height":1024,
+    "fullscreen":false,
+  },
+  "font":{
+    "file":"fonts/Roboto-Bold.ttf",
+    "size":16,
+  },
+  "rendering":{
+    "fftSmoothFactor": 0.9,
+  },
+  "textures":{
+    "texChecker":"textures/checker.png",
+    "texNoise":"textures/noise.png",
+    "texTex1":"textures/tex1.jpg",
+    "texTex2":"textures/tex2.jpg",
+    "texTex3":"textures/tex3.jpg",
+    "texTex4":"textures/tex4.jpg",
+  },
+  "gui":{
+    "outputHeight": 100,
+    "opacity": 100,
+    "texturePreviewWidth": 100,
+  },
+  // this section is if you want to customise colors to your liking
+  "theme":{
+    "text": "EEEEEE", // color format is "RRGGBB" or "AARRGGBB" in hexadecimal
+    "comment": "555555",
+    "number": "d35c79",
+    "op": "48ecd7",
+    "keyword": "da7a33",
+    "type": "3671b4",
+    "builtin": "f5960c",
+    "preprocessor": "C0C0C0",
+    "selection": "C06699CC", // background color when selecting text
+    "charBackground": "C0000000", // if set, this value will be used (instead of gui opacity) behind characters
+  },
+}
